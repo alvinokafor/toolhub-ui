@@ -1,0 +1,27 @@
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-links li, 
+.nav-links a{
+    list-style-type: none;
+    font-weight: 600;
+    margin-right: 16px;
+    cursor: pointer;
+    line-height: 24%;
+    color: #fff;
+}
+
+.nav-links li:last-of-type,
+.nav-links a:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,27 @@
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 3.625rem;
+    font-weight: 700;
+}
+
+.home-content p {
+    line-height: 30px;
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+
+.home-content button {
+    padding: 15px 40px;
+    margin-top: 40px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--secondary-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
