@@ -7,13 +7,6 @@
     font-weight: 700;
 }
 
-.home-content p {
-    line-height: 30px;
-    width: 50%;
-    margin-inline: auto;
-    margin-top: 40px;
-}
-
 .home-content button {
     padding: 15px 40px;
     margin-top: 40px;
@@ -24,4 +17,15 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+textarea {
+    margin-top: 40px;
+    display: block;
+    margin-inline: auto;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #11131E;
+    outline: 2px solid #11131E;
 }

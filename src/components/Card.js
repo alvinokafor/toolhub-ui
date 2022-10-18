@@ -21,9 +21,9 @@ const Card = ({
 
       <div className="card-info">
         <h2>
-          {total} {missing} {edited} {percentage} {symbol}
+          {total} {missing} {edited} {percentage}{symbol}
           <span>
-            {tools} {ofTools}
+            {tools}{ofTools}
           </span>
         </h2>
       </div>

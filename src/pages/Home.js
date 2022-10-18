@@ -7,14 +7,12 @@ const Home = () => {
       <Nav />
 
       <div className="home-content">
-      <h1>Toolhub UI</h1>
-      <p>
-        Toolhub is a community catalog of tools used across many Wiki projects.
-        Its usefulness as such is directly linked to the amount and quality of
-        information it contains
-      </p>
+        <h1>Toolhub UI</h1>
+          <form>
+        <textarea rows="8" cols="50" placeholder="Enter tool here"></textarea>
 
-      <a href='https://phabricator.wikimedia.org/T318921'><button>Learn More</button></a>
+        <button>Submit</button>
+        </form>
       </div>
     </section>
   );
