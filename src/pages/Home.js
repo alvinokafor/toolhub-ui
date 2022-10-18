@@ -13,7 +13,8 @@ const Home = () => {
         Its usefulness as such is directly linked to the amount and quality of
         information it contains
       </p>
-      <button>Learn More</button>
+
+      <a href='https://phabricator.wikimedia.org/T318921'><button>Learn More</button></a>
       </div>
     </section>
   );

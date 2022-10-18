@@ -1,0 +1,13 @@
+.dashboard h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dashboard-content {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}

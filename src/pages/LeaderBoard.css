@@ -4,3 +4,8 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+.heading h3,
+.heading span {
+    font-weight: 600;
+}

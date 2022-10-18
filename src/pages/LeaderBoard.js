@@ -3,7 +3,6 @@ import User from "../components/User";
 import "./LeaderBoard.css";
 
 const LeaderBoard = () => {
-
   const DUMMY_USER_DATA = [
     {
       id: "ytr65eyr",
@@ -38,6 +37,20 @@ const LeaderBoard = () => {
       <Nav />
       <section className="content-margin leaderboard-content">
         <h1>Leaderboard</h1>
+
+        <div className="user flex heading">
+          <div className="flex ">
+            <span className="user-level">#</span>
+
+            <div className="user-info flex">
+              <h3>User</h3>
+            </div>
+          </div>
+
+          <div>
+            <span>Contributions</span>
+          </div>
+        </div>
 
         {DUMMY_USER_DATA.map((user, index) => (
           <User

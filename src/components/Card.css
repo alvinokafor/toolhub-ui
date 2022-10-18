@@ -1,0 +1,26 @@
+.card {
+    background-color: #11131E;
+    width: 40%;
+    padding-inline: 25px;
+    overflow: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.card-info {
+    margin-bottom: 20px;
+}
+
+.card h2 span {
+    font-size: 1rem;
+}
