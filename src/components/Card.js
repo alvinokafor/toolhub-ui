@@ -1,3 +1,4 @@
+import Charts from "./Charts";
 import "./Card.css";
 
 const Card = ({
@@ -13,12 +14,18 @@ const Card = ({
   tools,
   ofTools,
 }) => {
+
+
+
+
   return (
     <div className="card">
       <h4 className="card-title">
         {totalTitle} {missingTitle} {percentTitle} {editedTitle}
       </h4>
 
+         
+    <Charts />
       <div className="card-info">
         <h2>
           {total} {missing} {edited} {percentage}{symbol}
