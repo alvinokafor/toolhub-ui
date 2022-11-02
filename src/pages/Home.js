@@ -3,18 +3,36 @@ import Nav from "../components/Nav";
 
 const Home = () => {
   return (
-    <section className="home content-margin">
+    <>
       <Nav />
-
-      <div className="home-content">
-        <h1>Toolhub UI</h1>
+      <section className="home content-margin">
+        <div className="home-content">
+          <h1>Toolhub UI</h1>
+          <div>
+            <h3>Tools to be completed</h3>
+            <ul className="tool-list">
+              <a href="https://toolhub.wikimedia.org/tools/toolforge-croptool">
+                <li>crop-tool</li>
+              </a>
+              <a href="https://toolhub.wikimedia.org/tools/toolforge-locator-tool">
+                <li>locator-tool</li>
+              </a>
+              <a href="https://toolhub.wikimedia.org/tools/hay-depictor">
+                <li>Depictor</li>
+              </a>
+              <a href="https://toolhub.wikimedia.org/tools/mm_listeria">
+                <li>Listeria</li>
+              </a>
+            </ul>
+          </div>
           <form>
-        <textarea rows="8" cols="50" placeholder="Enter tool here"></textarea>
+            <input placeholder="Enter tool here"></input>
 
-        <button>Submit</button>
-        </form>
-      </div>
-    </section>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+    </>
   );
 };
 

@@ -6,9 +6,13 @@ import { Doughnut } from 'react-chartjs-2';
 export default function Charts() {
 
     const data = {
-        labels: ['Found', 'Not Found'],
+        labels: ['Complete', 'Missing'],
         datasets: [{
-            data: [12, 5]
+            data: [34, 56],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)'
+            ]
         }]
     }
 

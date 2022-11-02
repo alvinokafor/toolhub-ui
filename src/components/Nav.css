@@ -1,14 +1,15 @@
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 150px;
+    padding-block: 20px;
+    margin-bottom: 80px;
+    background-color: var(--secondary-color);
+    padding-inline: 100px;
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 2rem;
-    color: #fff;
+   width: 40px;
+   height: 40px;
 }
 
 .nav-links li, 
@@ -19,6 +20,11 @@
     cursor: pointer;
     line-height: 24%;
     color: #fff;
+    transition: all 100ms ease-in;
+}
+
+.nav-links li:hover {
+    color: rgba(255, 255, 255, 0.719);
 }
 
 .nav-links li:last-of-type,

@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #252B42;
-  --secondary-color: #23A6F0;
+  --secondary-color: #3366cc;
 }
 
 /* CSS RESETS */
@@ -72,8 +72,8 @@ select {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: #fff;
+  color: rgba(0,0,0,.87);
 }
 
 

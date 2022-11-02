@@ -4,7 +4,18 @@
 
 .home-content h1 {
     font-size: 3.625rem;
+    margin-bottom: 20px;
     font-weight: 700;
+}
+
+.home-content h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tool-list li {
+    list-style-type: none;
+    margin-bottom: 5px;
 }
 
 .home-content button {
@@ -19,13 +30,14 @@
     cursor: pointer;
 }
 
-textarea {
+input {
     margin-top: 40px;
+    width: 450px;
     display: block;
     margin-inline: auto;
     padding: 10px;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #11131E;
-    outline: 2px solid #11131E;
+    color: rgba(0,0,0,.87);
+    border: 1px solid rgba(0,0,0,.87);
+    outline: 2px solid rgba(0,0,0,.87);
 }
