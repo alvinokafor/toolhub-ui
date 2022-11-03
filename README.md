@@ -37,7 +37,7 @@ The website contains three pages: Home, Dashboard and Leaderboard
 
 ![Home page](./src/assets/home-page.png "Home Page")
 
-![Dashboard page](./src/assets/dashboard-page.png "Dashbaord Page")
+![Dashboard page](./src/assets/dashboard-screen.png "Dashbaord Page")
 
-![Leaderboard page](./src/assets/leaderboard-page.png "Leaderboard Page")
+![Leaderboard page](./src/assets/leaderboard-screen.png "Leaderboard Page")
 
